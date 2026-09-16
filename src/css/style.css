@@ -1,0 +1,160 @@
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #0e1c40;
+    margin: 0;
+    color: white;
+}
+
+.section {
+    display: flex;
+    width: 100%;
+    gap: 60vh;
+}
+
+.left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+img {
+    width: 280px;
+    height: 380px;
+    border-radius: 90%;
+    margin: 200px 90px 0;
+    border: 2px solid #395ab6;
+    box-shadow: 2px 2px 7px -2px #a630d1;
+}
+
+.head {
+    margin-top: 200px;
+    width: 100%;
+
+}
+
+h1 {
+    font-size: 39px;
+}
+
+h2 {
+    margin-right: 25px;
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.dawn {
+    text-align: center;
+    font-size: 18px;
+    margin-right: 280px;
+}
+
+.learn svg {
+    width: 28px;
+    margin: 8px 3px 0;
+}
+
+.learn {
+    display: flex;
+    gap: 17px;
+}
+
+.HTML {
+    width: 75px;
+    height: 40px;
+    display: flex;
+    background-color: #3a3838;
+    border-radius: 10px;
+
+}
+
+.CSS {
+    width: 75px;
+    height: 40px;
+    display: flex;
+    background-color: #3a3838;
+    border-radius: 10px;
+
+}
+
+.CSS svg {
+    width: 30px;
+    margin: 0 -4px 2px;
+}
+
+.GIT {
+    width: 75px;
+    height: 40px;
+    display: flex;
+    background-color: #3a3838;
+    border-radius: 10px;
+}
+
+.Git-Hup {
+    width: 90px;
+    height: 40px;
+    display: flex;
+    background-color: #3a3838;
+    border-radius: 10px;
+}
+
+.right {
+    height: 100vh;
+    width: 446px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-radius: 13px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.right-top {
+    width: 100%;
+    text-align: center;
+}
+
+
+.right-top h2 {
+    font-size: 40px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.center svg {
+    width: 20px;
+    margin-left: 7px;
+}
+
+.center {
+    text-align: right;
+    margin-right: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.center a {
+    text-decoration: none;
+    color: azure;
+    font-size: 28px;
+}
+
+li {
+    margin-top: 50px;
+}
+
+li:hover {
+    padding-right: 20px;
+    margin-left: 30px;
+    width: 128px;
+    border-radius: 5px;
+    background: rgb(0, 195, 255);
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
