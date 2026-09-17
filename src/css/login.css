@@ -117,3 +117,7 @@ button:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
+.forget{
+text-align: center;
+margin-left: 150px;
+}
