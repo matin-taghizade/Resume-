@@ -114,8 +114,6 @@ h3 {
     width: 100%;
     text-align: center;
 }
-
-
 .right-top h2 {
     font-size: 40px;
     display: flex;
@@ -146,7 +144,7 @@ li {
     margin-top: 50px;
 }
 
-li:hover {
+li:not(.home):hover {
     padding-right: 20px;
     margin-left: 30px;
     width: 128px;
@@ -157,4 +155,15 @@ li:hover {
 a {
     text-decoration: none;
     color: azure;
+}
+
+.home{
+    background-color: #00c3ff;
+    height: 25px;
+    width: 127px;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 30px;
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
 }
