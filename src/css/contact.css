@@ -9,9 +9,9 @@ body {
 }
 
 .section {
+    display: flex;
     height: 100vh;
     width: 100%;
-    display: flex;
     gap: 27vh;
 }
 
@@ -165,7 +165,7 @@ button {
     padding: 10px;
 }
 
- .left-dawn svg {
+.left-dawn svg {
     width: 40px;
     background-color: #391bc2bd;
     border-radius: 100%;
@@ -177,8 +177,8 @@ button {
     margin-top: 25px;
     font-size: 28px;
 }
-.left-end{
+
+.left-end {
     margin-top: 30px;
     text-align: center;
 }
-
