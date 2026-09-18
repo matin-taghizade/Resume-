@@ -12,6 +12,7 @@ body {
     height: 100vh;
     width: 100%;
     display: flex;
+    gap: 27vh;
 }
 
 .right {
@@ -31,6 +32,7 @@ body {
     font-size: 35px;
     text-align: center;
 }
+
 .center svg {
     width: 20px;
     margin-left: 7px;
@@ -48,7 +50,7 @@ ul {
 .center a {
     text-decoration: none;
     color: azure;
-    font-size: 28px;
+    font-size: 25px;
 }
 
 li {
@@ -68,13 +70,115 @@ a {
     color: azure;
 }
 
-.call{
+.call {
     background-color: #00c3ff;
     height: 25px;
     width: 135px;
     border-radius: 3px;
     padding: 7px;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 40px;
     color: rgb(0, 0, 0);
 }
+
+.left {
+    width: 100%;
+    text-align: left;
+    width: 100%;
+}
+
+.left-center {
+    width: 140vh;
+    height: 50vh;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid rgba(31, 9, 226, 0.432);
+}
+
+input {
+    width: 110vh;
+    margin: 20px 0 10px 0;
+    height: 30px;
+    border-radius: 7px;
+    border: 0;
+    background-color: rgba(17, 22, 82, 0.8);
+    font-size: 14px;
+    color: aliceblue;
+    padding: 4px;
+    font-weight: bold;
+
+}
+
+input::placeholder {
+    color: aliceblue;
+}
+
+label {
+    display: block;
+    text-align: center;
+}
+
+button {
+    width: 23vh;
+    height: 40px;
+    border-radius: 21px;
+    background-color: rgb(51, 53, 148);
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: beige;
+}
+
+.bgn {
+    text-align: left;
+    margin-left: 150px;
+}
+
+.msg {
+    height: 70px;
+}
+
+.left-top h1 {
+    font-size: 40px;
+}
+
+.color {
+    color: rgb(112, 26, 192);
+}
+
+.left-dawn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location,
+.telephon,
+.gmail {
+    width: 24vh;
+    height: 22vh;
+    background-color: rgba(66, 26, 212, 0.151);
+    margin: 20px 20px;
+    border-radius: 15px;
+    border: 2px solid rgba(31, 9, 226, 0.432);
+    text-align: center;
+    padding: 10px;
+}
+
+ .left-dawn svg {
+    width: 40px;
+    background-color: #391bc2bd;
+    border-radius: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.left-dawn h4 {
+    margin-top: 25px;
+    font-size: 28px;
+}
+.left-end{
+    margin-top: 30px;
+    text-align: center;
+}
+
